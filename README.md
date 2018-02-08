@@ -76,8 +76,9 @@ server {
   listen 80 default_server;
   listen [::]:80 default_server;
   root /var/www;
+  # The root path refers to the container's exposed volume
   set $fastcgi_root_in_container "/var/www";
-  # Everything is a 404
+
   location / {
     try_files $uri $uri/ = 404;
   }
