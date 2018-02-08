@@ -9,16 +9,10 @@ PHP 7.1 is still using [**edge/testing** repository for PHP7 packages](https://p
 
 ## Getting The Image
 
-This image is published in the [Docker Hub](https://hub.docker.com/r/Wilgat/alpine-php/). Simply run this command below to get it to your machine.
+This image is published in the [Docker Hub](https://hub.docker.com/r/wilgat/docker-alpine-php7/). Simply run this command below to get it to your machine.
 
 ```Shell
 docker pull wilgat/docker-alpine-php7:latest
-```
-
-Or if you want to use `cli` image.
-
-```Shell
-docker pull matriphe/alpine-php:cli
 ```
 
 Alternatively you can clone this repository and build the image using the `docker build` command.
